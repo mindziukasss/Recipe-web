@@ -10,8 +10,8 @@
 	.panel-body 
 		= f.input :title, input_html: { class: 'form-control' }
 		= f.input :description, input_html: { class: 'form-control' }
-		= f.input :image, input_html: { class: 'form-control' }
-
+		= f.input :image, input_html:{:type => "file"}
+	.form-group
 		.row
 			.col-md-6
 				%h3 Ingredients
